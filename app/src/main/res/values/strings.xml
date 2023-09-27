@@ -14,7 +14,7 @@
     <string name="purchase_question">Anda yakin ingin membeli item ini?</string>
 
     <!-- Nama-nama Aktivitas -->
-    <string name="activity_main">Halaman Utama</string>
+    <string name="activity_main">Halaman aja utama</string>
     <string name="activity_ibu">Halaman Ibu</string>
     <string name="activity_anak">Halaman Anak</string>
     <string name="activity_store">Halaman Toko</string>
