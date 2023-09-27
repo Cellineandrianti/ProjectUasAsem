@@ -1,0 +1,29 @@
+<resources>
+    <!-- Judul Aktivitas -->
+    <string name="app_name">Nama Aplikasi Anda</string>
+
+    <!-- Teks Umum -->
+    <string name="hello_world">Halo, Dunia!</string>
+    <string name="action_settings">Pengaturan</string>
+
+    <!-- Pesan-pesan -->
+    <string name="item_purchase_successful">Pembelian item berhasil.</string>
+    <string name="not_enough_coins">Koin tidak mencukupi.</string>
+    <string name="item_price">Harga Item: %1$d Koin</string>
+    <string name="confirm_purchase">Konfirmasi Pembelian</string>
+    <string name="purchase_question">Anda yakin ingin membeli item ini?</string>
+
+    <!-- Nama-nama Aktivitas -->
+    <string name="activity_main">Halaman Utama</string>
+    <string name="activity_ibu">Halaman Ibu</string>
+    <string name="activity_anak">Halaman Anak</string>
+    <string name="activity_store">Halaman Toko</string>
+    <string name="activity_setting">Halaman Pengaturan</string>
+    <string name="activity_child_profile">Profil Anak</string>
+    <string name="activity_schedule_setting">Pengaturan Jadwal</string>
+    <string name="activity_child_activity_detail">Detail Kegiatan Anak</string>
+
+    <!-- Lain-lain -->
+    <string name="male">Laki-laki</string>
+    <string name="female">Perempuan</string>
+</resources>

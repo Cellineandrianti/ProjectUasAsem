@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ScheduleSettingActivity">
+
+    <!-- Judul halaman -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Atur Jadwal Anak"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Pilihan anak -->
+
+    <!-- Input jadwal makan -->
+    <Button
+        android:id="@+id/selectChildButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="197dp"
+        android:text="Pilih Anak" />
+
+    <EditText
+        android:id="@+id/makanJamEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectChildButton"
+        android:layout_marginTop="16dp"
+        android:hint="Jam Makan (HH:mm)"
+        android:inputType="text" />
+
+    <!-- Input jadwal mandi -->
+    <EditText
+        android:id="@+id/mandiJamEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/makanJamEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Jam Mandi (HH:mm)"
+        android:inputType="text" />
+
+    <!-- Input jadwal tidur -->
+    <EditText
+        android:id="@+id/tidurJamEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mandiJamEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Jam Tidur (HH:mm)"
+        android:inputType="text" />
+
+    <!-- Tombol simpan jadwal -->
+    <Button
+        android:id="@+id/saveScheduleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Simpan Jadwal"
+        android:layout_below="@id/tidurJamEditText"
+        android:layout_marginTop="24dp" />
+</RelativeLayout>

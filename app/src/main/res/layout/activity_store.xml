@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".StoreActivity">
+
+    <!-- Judul halaman -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Toko Anak"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tampilan jumlah koin -->
+    <TextView
+        android:id="@+id/coinsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:text="Koin: 0"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Tombol untuk membeli item -->
+    <Button
+    android:id="@+id/buyItemButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/coinsTextView"
+    android:layout_marginTop="473dp"
+    android:text="Beli Item"
+    android:layout_centerHorizontal="true"/>
+
+    <!-- Daftar item yang dapat dibeli -->
+    <!-- Anda dapat menambahkan elemen-elemen UI di sini untuk menampilkan item-item yang tersedia -->
+
+</RelativeLayout>

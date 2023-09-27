@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Judul Halaman -->
+    <TextView
+        android:id="@+id/ibuTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halaman Ibu"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- ImageView untuk karakter anak -->
+    <ImageView
+        android:id="@+id/karakterAnakImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/default_character" <!-- Gambar default -->
+    android:layout_gravity="center"
+    android:layout_marginTop="16dp" />
+
+    <!-- Input untuk nama anak -->
+    <EditText
+        android:id="@+id/namaAnakEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Anak" />
+
+    <!-- Input untuk umur anak -->
+    <EditText
+        android:id="@+id/umurAnakEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Umur Anak"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/jenisKelaminAnakEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Kelamin Anak" />
+
+    <!-- Tombol untuk Menambahkan Anak -->
+    <Button
+        android:id="@+id/tambahAnakButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Anak"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tampilan Daftar Anak -->
+    <ListView
+        android:id="@+id/daftarAnakListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <!-- Tombol untuk Mengatur Jadwal Anak -->
+    <Button
+        android:id="@+id/aturJadwalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atur Jadwal Anak"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <!-- RadioGroup untuk jenis kelamin -->
+    <RadioGroup
+        android:id="@+id/jenisKelaminRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/lakiLakiRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/perempuanRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan" />
+    </RadioGroup>
+
+    <!-- Spinner untuk umur -->
+    <Spinner
+        android:id="@+id/umurSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

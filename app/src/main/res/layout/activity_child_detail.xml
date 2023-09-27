@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ChildActivityDetailActivity">
+
+    <!-- Button untuk melakukan kegiatan mandi -->
+    <Button
+        android:id="@+id/parentModeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="-2dp"
+        android:text="Parent Mode" />
+
+    <!-- Judul halaman -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Detail Kegiatan Anak"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tampilan detail kegiatan -->
+    <TextView
+        android:id="@+id/activityDetailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:layout_marginTop="40dp" />
+
+
+    <Button
+        android:id="@+id/mandiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mandi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <!-- Button untuk melakukan kegiatan makan -->
+    <Button
+        android:id="@+id/makanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makan"
+        android:layout_below="@+id/mandiButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button untuk melakukan kegiatan tidur -->
+    <Button
+        android:id="@+id/tidurButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tidur"
+        android:layout_below="@+id/makanButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button untuk membeli baju di Store -->
+
+    <!-- Button untuk mengganti baju -->
+
+    <Button
+        android:id="@+id/beliBajuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tidurButton"
+        android:layout_marginTop="16dp"
+        android:text="Beli Baju"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/gantiBajuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beliBajuButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Ganti Baju" />
+
+</RelativeLayout>

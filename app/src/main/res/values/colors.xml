@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna Utama -->
+    <color name="colorPrimary">#2196F3</color> <!-- Biru -->
+    <color name="colorPrimaryDark">#1976D2</color> <!-- Biru gelap -->
+    <color name="colorAccent">#FF4081</color> <!-- Pink -->
+
+    <!-- Warna lainnya -->
+    <color name="colorWhite">#FFFFFF</color> <!-- Putih -->
+    <color name="colorBlack">#000000</color> <!-- Hitam -->
+
+    <!-- Warna kustom -->
+    <color name="colorBlue">#2196F3</color> <!-- Biru -->
+    <color name="colorPink">#FF4081</color> <!-- Pink -->
+</resources>
